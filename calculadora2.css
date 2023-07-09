@@ -1,0 +1,61 @@
+body {
+    background: url('../img/background_cal_3.jpg') no-repeat;
+    background-size: cover;
+  }
+  
+  .main-frame-cal {
+    width: 50%;
+    margin: 10% auto; /* Ajusta el margen superior e inferior para centrar el cuadro */
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #f4ede9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Gotham', sans-serif;
+    text-align: center;
+  }
+  
+  .main-frame-cal label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #6b4e4b;
+    font-size: 23px;
+
+  }
+  
+  .main-frame-cal input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .main-frame-cal button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #a35d51;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px; /* Aumenta el tamaño de la letra */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); /* Agrega una sombra al botón */
+  }
+  
+  .home {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 50px;
+  }
+  .resultado {
+    margin-top: 20px;
+  }
+  
+  .resultado p {
+    margin-bottom: 10px;
+  }
+  
+  .resultado .label {
+    font-weight: bold;
+  }

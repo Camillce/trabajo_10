@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css_3.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formulario</h1>
+        <form action="php_3.php" method="get">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido" required>
+            </div>
+
+            <div class="form-group">
+                <label for="cedula">Cédula:</label>
+                <input type="text" name="cedula" id="cedula" required>
+            </div>
+
+            <input class="btn-submit" type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+
+</html>
